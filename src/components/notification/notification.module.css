@@ -1,0 +1,31 @@
+.overlay {
+    position: fixed;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_wrapper {
+    width: 100%;
+    padding: 1rem;
+    background: linear-gradient(180deg, #FFFFFF 60%, #91c2e7);
+    border: 2px solid var(--card-border-color);
+    border-radius: 1rem;
+    box-shadow: var(--card-shadow);
+}
+
+.form__inner {
+    padding: 3rem 2rem;
+    background: right center no-repeat url('../../assets/images/card-bg-1.svg');
+    background-size: contain;
+}
+
+.gratitude {
+    font-size: 2rem;
+}
+
+.phrase {
+    font-size: 1rem;
+}

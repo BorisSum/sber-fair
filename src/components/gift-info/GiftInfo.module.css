@@ -1,0 +1,131 @@
+.back_btn {
+    padding: 0.5rem 0.5rem 0.3rem 0.3rem;
+    border: 1px solid var(--buy-btn);
+    border-radius: 0.5rem;
+    position: absolute;
+    left: 1.5rem;
+    top: 2rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+
+.back_btn_text {
+    color: var(--card-price-text-color);
+    font-size: 1rem;
+    display: flex;
+}
+
+.back_btn_text::before {
+    display: block;
+    content: '';
+    width: 1.5rem;
+    height: 1rem;
+    background: top left no-repeat url('../../assets/img/arrow_back.svg');
+    background-size: contain;
+}
+
+.gift_info__wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:0.7rem;
+    margin: 0 auto;
+}
+
+.separator {
+    margin-bottom: 1rem;
+}
+
+.gift_info__block {
+    border-radius: 0.8rem;
+    border: 1px solid var(--card-border-color);
+    background: var(--card-background-gradient);
+    box-shadow: var(--card-shadow);
+}
+
+.gift_info__block_inner {
+    width: 100%;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.gift_info__block_title {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.gift_info__block_title_author {
+    margin-bottom: 0;
+}
+
+.gift_info__block_icon {
+    width: 1.5rem;
+    height: 1.5rem;
+    background: center no-repeat url('../../assets/img/GiftIcon.svg');
+    background-size: cover;
+}
+
+.gift_info__block_icon_author {
+    background: center no-repeat url('../../assets/img/snowflake.svg');
+}
+
+.gift_info__block_name {
+    color: var(--card-text-color);
+    font-size: 1rem;
+    margin-top: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.gift_info__block_image {
+    width: 100%;
+    padding: 70% 1rem 1rem 1rem;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 0.4rem;
+}
+
+.gift_info__block_image img {
+    position: absolute;
+    display: block;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 50% 50%;
+}
+
+.gift_info__buy_info {
+    font-size: 0.875rem;
+    padding: 1.5rem 50% 2rem 0.5rem;
+    background: top right no-repeat url('../../assets/img/gift-info-bg.svg');
+    background-size: contain;
+}
+
+.gift_info__btn {
+    padding: 0.8rem 0.5rem 0.5rem 0.5rem;
+    text-align: center;
+    background-color: var(--buy-btn);
+    font-size: 0.875rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+@media (max-width: 389px) {
+    .gift_info__wrapper {
+        padding: 0.2rem;
+    }
+
+    .gift_info__buy_info {
+        font-size: 0.75rem;
+    }
+}
+
+@media (min-width: 960px) {
+    .gift_info__wrapper {
+        width: 80%;
+    }
+}

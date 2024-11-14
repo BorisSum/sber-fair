@@ -1,0 +1,27 @@
+
+.wrapper {
+    margin: 1rem 0;
+}
+
+.label {
+    display: block;
+    font-size: 0.7rem;
+    color: #707070;
+}
+
+.label__empty {
+    font-weight: bold;
+    color: #FF313A;
+}
+
+.input {
+    display: block;
+    width: 100%;
+    font-size: 1rem;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    color: #000;
+    outline-color: #4c93f8;
+    outline-width: 2px;
+    border: 1px solid #4c93f8;
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="_Слой_2" data-name="Слой 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 720 430">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: url(#_Безымянный_градиент_196);
+      }
+    </style>
+    <linearGradient id="_Безымянный_градиент_196" data-name="Безымянный градиент 196" x1="360" y1="0" x2="360" y2="430" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4382bc"/>
+      <stop offset=".99" stop-color="#91c2e7"/>
+    </linearGradient>
+  </defs>
+  <g id="_карточка" data-name="карточка">
+    <rect class="cls-1" y="0" width="720" height="430" rx="16" ry="16"/>
+  </g>
+</svg>
